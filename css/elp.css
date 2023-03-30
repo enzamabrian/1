@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+  }
+  
+  
+
+  .topnav a {
+    font-size: 15px;
+
+  }
+  
+  
+
+  
+  .topnav {
+    overflow: hidden;
+    background:#6b6363;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .5s;
+    font-family: arial;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav-right {
+    float: right;
+  }
+
+
+
+
+
+  .header
+  {
+    padding: 20px;
+  }
+
+  .header h1{
+    font-family: arial;
+    color: red;
+    
+
+  }
+
+  .header p{
+    font-family: Gill Sans Nova Light;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .head-image
+  {
+      width: 100%;
+  }
+  .head-image img{
+    width: 100%;
+  }
+
+  .row
+  {
+    height: 1px;
+    width: 100%;
+    margin-top: 60px;
+    background: red;
+
+  }
+  .chapter-heading
+  {
+    height: 50PX;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 100px;
+
+
+  }
+
+  .chapter-heading h1{
+    color: rgb(179, 8, 8);
+    
+  }
+
+.chapters
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 10px;
+  margin-bottom: 120px;
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(231, 226, 226);
+}
+.chapters img{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+  .chapters .chapter-university
+  {
+    padding: 20px;
+    font-family: arial;
+  }
+  
+  .chapters .chapter-university p{
+    text-align: justify;
+    font-family: Gill Sans Nova Light;
+    font-size: 20px;
+
+  }
+
+  .chapters .chapter-university h1{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    background: rgb(148, 145, 145);
+
+  }
+
+  .chapters .chapter-university h3{
+    font-family: arial;
+    font-weight: lighter;
+  }
+
+  .chapters .chapter-university .row1
+  {
+    height: 1px;
+    width: 95%;
+    background: red;
+  }
+
+  .chapters .chapter-university a{
+    text-decoration: none;
+    background-color: rgb(179, 8, 8);
+    padding: 10px 20px;
+    color: rgb(236, 236, 236);
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .chapters .chapter-university a:hover{
+    background: gray;
+
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .chapters{
+      flex-direction: column;
+    }
+.chapters img{
+  width: 100%;
+
+    }
+
+  .chapters .chapter-university p{
+    font-size: 20px;
+  }
+
+
+  }
+
+  
+
+
+  
+
+  .footer
+  {
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px;
+    
+  }
+
+  .footer .bottom-links
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  
+}
+
+    .footer .bottom-links a{
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .footer .bottom-links a:hover{
+      transform: scale(1.1);
+
+    }
+
+
+    .footer .footer-socials
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;  
+    }
+    .footer .footer-socials span img
+    {
+        width: 40px;
+    }
+
+    
+
+  
